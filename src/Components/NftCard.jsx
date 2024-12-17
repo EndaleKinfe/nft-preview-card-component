@@ -1,9 +1,11 @@
 import eth from '/images/icon-ethereum.svg'
 import icontime from "/images/icon-clock.svg"
+import avator from "/images/image-avatar.png"
 const NftCard = ({imgurl,}) => {
     return ( 
         <>
-            <div className="mt-24 sm:mt-40 w-80  mx-auto bg-dark-blue-2 rounded-lg text-soft-blue flex flex-col justify-center shadow-xl shadow-slate-900 ">
+            <div className="mt-24
+            xl:mt-24  2xl:mt-52  w-80  mx-auto bg-dark-blue-2 rounded-lg text-soft-blue flex flex-col justify-center shadow-xl shadow-slate-900 ">
                 <div className="relative w-[17.5rem] h-60 rounded-lg bg-dark-blue-3 mx-auto my-5 overflow-hidden hover:before:absolute hover:after:absolute 
                 hover:after:top-28 hover:after:left-28
                 hover:after:z-40 
@@ -20,7 +22,7 @@ const NftCard = ({imgurl,}) => {
                     </div>
                     <div className='border-b-2  border-solid border-dark-blue-3'></div>
                     <div className='mt-3 mb-5 flex items-center '>
-                        <img src="/images/image-avatar.png" className='border-solid border-white border-2 rounded-full w-10 mr-4' alt="" />
+                        <img src={avator} className='border-solid border-white border-2 rounded-full w-10 mr-4' alt="" />
                         <p>Creation of <span className=' text-white hover:text-cyan-pro '>Jules Wyvern</span></p>
                     </div>
                 </div>

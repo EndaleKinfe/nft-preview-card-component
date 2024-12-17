@@ -5,11 +5,19 @@ import './App.css'
 import "./Components/NftCard"
 import NftCard from './Components/NftCard'
 import imgu from '/images/image-equilibrium.jpg'
+import { BrowserRouter , Routes ,Route } from 'react-router'
+import Signup from './Components/Signup'
 function App() {
 
   return (
     <>
-     <NftCard imgurl={imgu}/>
+      <BrowserRouter>
+        <Routes>
+            <Route path='nft-preview-card-component/' element={<NftCard imgurl={imgu}/>}/>
+
+        </Routes>
+      </BrowserRouter>
+     
     </>
   )
 }
