@@ -6,7 +6,6 @@ import "./Components/NftCard"
 import NftCard from './Components/NftCard'
 import imgu from '/images/image-equilibrium.jpg'
 import { BrowserRouter , Routes ,Route } from 'react-router'
-import Signup from './Components/Signup'
 function App() {
 
   return (
