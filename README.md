@@ -23,14 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshot.jpg)
+![screenshot](./screenshot.jpeg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EndaleKinfe/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://endalekinfe.github.io/nft-preview-card-component/)
+- Solution URL: [Solution URL](https://github.com/EndaleKinfe/nft-preview-card-component)
+- Live Site URL: [Live site URL](https://endalekinfe.github.io/nft-preview-card-component/)
 
 ## My process
 
